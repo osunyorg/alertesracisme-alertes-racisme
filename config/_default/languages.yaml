@@ -2,13 +2,24 @@
 
 fr:
   title: >-
-    Alertes Racisme
+    AlertesRacisme
   contentDir: content/fr
   languageCode: fr
   languageName: Français
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        instagram:
+          label: >-
+            alertesracisme
+          value: >-
+            https://instagram.com/alertesracisme
+        x:
+          label: >-
+            AlertesRacisme
+          value: >-
+            https://x.com/AlertesRacisme
 
   permalinks:
     pages_categories: /:slug/
