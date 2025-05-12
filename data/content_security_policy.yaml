@@ -6,3 +6,5 @@ allowed_domains:
   - "osuny.s3.fr-par.scw.cloud"
   - "tile.openstreetmap.org"
   - "peuplier.osc-fr1.scalingo.io"
+  - "twitter.com"
+  - "platform.twitter.com"
