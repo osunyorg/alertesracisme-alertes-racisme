@@ -1,7 +1,3 @@
-header.is-sticky
-    .logo img
-        content: url("/assets/images/logo_color.PNG")
-
 
 //header logo and text hero white    
 header:not(.is-sticky)
@@ -12,6 +8,10 @@ header:not(.is-sticky)
     .logo img
         content: url("/assets/images/logo_white.png")
 
+header#document-header .logo img
+    height: 72px
+footer#document-footer .logo img
+    height: 72px
 
 
 .hero
@@ -20,6 +20,6 @@ header:not(.is-sticky)
     background-blend-mode: darken
 
 //accueil feature
-body.full-width .block-class-feature-accueil
+body.full-width .block-class-feature-accueil, body.full-width.home_page .categories--grid
     ul
         grid-template-columns: repeat(2,1fr)
