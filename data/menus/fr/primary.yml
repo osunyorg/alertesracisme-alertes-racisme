@@ -1,13 +1,20 @@
 ---
 title: Menu principal
 items:
-- title: Actualités
-  target: "/actualites/"
-  kind: page
+- title: Témoignages
+  target: "/actualites/temoignages/"
+  kind: category
   new_tab: false
   children: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
+  path: "/posts_categories/temoignages"
+  file: content/fr/posts_categories/temoignages/_index.html
+- title: Nos Alertes
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+  path: "/posts_categories/nos-alertes"
+  file: content/fr/posts_categories/nos-alertes/_index.html
 - title: Témoigner
   target: "/temoigner/"
   kind: page
