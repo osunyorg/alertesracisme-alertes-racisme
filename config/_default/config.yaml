@@ -8,3 +8,7 @@ params:
   logo:
     header: '/assets/images/logo_color.PNG'
     footer: '/assets/images/logo_color.PNG'
+  posts:
+    index: 
+      options:
+        categories: false
