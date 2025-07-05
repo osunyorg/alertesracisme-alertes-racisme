@@ -1,6 +1,12 @@
-// // H2 POST TITLES
-// .posts_categories__term .posts--list article, 
-// .posts__section .posts--list article
+.posts
+    &--list
+        article
+            @include media-breakpoint-up(desktop)
+                hgroup
+                    max-width: columns(7)
+                [itemprop="abstract"]
+                    max-width: columns(7)
+                    margin-top: $spacing-2
 //     padding-bottom: 2rem
 //     .post-content
 //         grid-column: 1/13
@@ -11,3 +17,8 @@
 
 //         .post-categories
 //             display: none
+.post
+    .post-title
+        text-transform: uppercase
+    .post-subtitle
+        color: $color-text
