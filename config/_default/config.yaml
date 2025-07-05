@@ -2,9 +2,13 @@ theme: osuny
 _merge: deep
 params:
   summary:
-    position: hero
+    position: content
   search:
     active: false
   logo:
     header: '/assets/images/logo_color.PNG'
     footer: '/assets/images/logo_color.PNG'
+  posts:
+    index: 
+      options:
+        categories: false

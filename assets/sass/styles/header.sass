@@ -1,0 +1,79 @@
+//header logo and text hero white    
+header:not(.is-sticky)
+    .search-button--primary
+        color: #ffffff
+    .menu a
+        color: #ffffff
+    .logo img
+        content: url("/assets/images/logo_white.png")
+
+header#document-header
+    &:not(.is-sticky)
+        nav.primary-menu
+            button.header-button
+                color: #fff
+            
+            #navigation.menu
+                .nav-level-1
+                    color: white
+                    li:last-child
+                        a
+                            background: white
+                            padding: 0.5rem 1rem
+                            margin-left: 1rem
+                            border-radius: 4px
+                            border 1px solid white
+                            color: $color-hero
+                            transition: background .25s ease,border .25s ease,color .25s ease;
+
+                            &:hover, &:focus, &:active
+                                background: rgba(255,255,255,0)
+                                color: white
+                                border: 1px solid white
+                                border-radius: 4px
+
+    nav.primary-menu
+        padding-top: 0.9rem
+        padding-bottom: 0.9rem
+        #navigation.menu
+            .nav-level-1
+                li:last-child
+                    a
+                        background: $color-hero
+                        padding: 0.5rem 1rem
+                        margin-left: 1rem
+                        border-radius: 4px
+                        border: 1px solid $color-hero
+                        color: white
+                        transition: background .25s ease,border .25s ease,color .25s ease;
+
+                        &:hover, &:focus, &:active
+                            background: rgba(255,255,255,0)
+                            color: $color-hero
+                            border: 1px solid $color-hero
+                            border-radius: 4px
+
+.hero
+    background-color: $color-hero
+    background-image: url("/assets/images/texture.svg")
+    min-height: 300px
+    .content
+        .hero-text
+            margin-top: 0
+            .hero-actions
+                a.btn
+                    color: #ffffff
+                    border-color: #ffffff
+                    &:hover, &:focus, &:active
+                        color: #111111
+        h1 
+            text-transform: uppercase
+            > span
+                color: $color-background
+                text-transform: none
+        a
+            color: white
+            text-decoration-color: white
+        .hero-actions
+            a
+                text-transform: uppercase
