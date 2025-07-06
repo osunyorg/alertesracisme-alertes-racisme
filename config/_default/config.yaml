@@ -6,8 +6,8 @@ params:
   search:
     active: false
   logo:
-    header: '/assets/images/logo_color.PNG'
-    footer: '/assets/images/logo_color.PNG'
+    header: '/assets/images/logo-white.png'
+    footer: '/assets/images/logo-color.png'
   posts:
     index: 
       options:
