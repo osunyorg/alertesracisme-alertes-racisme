@@ -2,24 +2,30 @@
 title: Menu principal
 items:
 - title: Témoignages
+  slug: temoignages
   target: "/actualites/temoignages/"
   kind: category
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts_categories/temoignages"
   file: content/fr/posts_categories/temoignages/_index.html
 - title: Nos Alertes
+  slug: nos-alertes
   target: "/actualites/nos-alertes/"
   kind: category
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts_categories/nos-alertes"
   file: content/fr/posts_categories/nos-alertes/_index.html
 - title: Témoigner
+  slug: temoigner
   target: "/temoigner/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/temoigner"
   file: content/fr/pages/temoigner/_index.html
 
