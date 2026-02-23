@@ -7,6 +7,11 @@ osuny:
   website:
     id: 86b24683-03f8-4bb5-ae5e-2e487ee49d34
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "alertesracisme.fr"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
