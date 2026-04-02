@@ -1,8 +1,8 @@
 ---
 title: Menu principal
 items:
-- title: Témoignages
-  slug: temoignages
+- title: Nos rapports
+  slug: nos-rapports
   target: "/actualites/rapports/"
   kind: category
   new_tab: false
@@ -10,7 +10,7 @@ items:
   descendants_targets: []
   path: "/posts_categories/rapports"
   file: content/fr/posts_categories/rapports/_index.html
-- title: Nos Alertes
+- title: Nos alertes
   slug: nos-alertes
   target: "/actualites/alertes/"
   kind: category
