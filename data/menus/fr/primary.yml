@@ -12,13 +12,13 @@ items:
   file: content/fr/posts_categories/rapports/_index.html
 - title: Nos Alertes
   slug: nos-alertes
-  target: "/actualites/nos-alertes/"
+  target: "/actualites/alertes/"
   kind: category
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/posts_categories/nos-alertes"
-  file: content/fr/posts_categories/nos-alertes/_index.html
+  path: "/posts_categories/alertes"
+  file: content/fr/posts_categories/alertes/_index.html
 - title: Témoigner
   slug: temoigner
   target: "/temoigner/"
